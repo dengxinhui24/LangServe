@@ -1,3 +1,4 @@
+'''python
 #导入库
 import uvicorn
 from fastapi import FastAPI
@@ -15,3 +16,6 @@ add_routes(app,model,path="/ollama")
 
 # 4.启动服务
 uvicorn.run(app,host="localhost",port=8000)
+'''
+
+#效果
